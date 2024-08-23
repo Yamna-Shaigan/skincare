@@ -1,0 +1,86 @@
+.products-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  
+  }
+  
+  .product {
+    margin: 40px;
+    text-align: center;
+    background-color:#FFC5C5;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding-bottom: 20px;
+  
+  }
+  
+  .product-image {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    background-color: #FFC5C5;
+    border-radius: 10px;
+    
+  }
+  
+  .price-tag {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+  }
+  .add-to-cart {
+    color: purple;
+    background-color: white;
+  }
+  .final {
+    background-color:#FFC5C5;
+    border-radius: 10px;
+  }
+
+/* Tablet devices */
+@media only screen and (max-width: 768px) {
+  .products-row {
+      flex-direction: column;
+  }
+  .product {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 480px) {
+  .product {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  button {
+      width: 100%;
+  }
+}
+
+/* Large desktop devices */
+@media only screen and (min-width: 1200px) {
+  .container {
+      max-width: 1400px;
+  }
+}
+
+/* Pink and Purple theme */
+body {
+  background-color: white; /* pink */
+}
+h1 {
+  color: #7a288a; /* purple */
+}
+button {
+  background-color: white; /* pink */
+  color:black;
+}
+.rating span {
+  color: purple; /* pink */
+}
+
