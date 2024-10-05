@@ -96,10 +96,6 @@ footer {
 	background-color: #FFC5C5; /* pink */
 	padding: 20px;
 	text-align: center;
-  border-radius: 2px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: #7A288A;
 }
 
 footer .footer-content {
@@ -149,6 +145,7 @@ footer p {
   margin: 20px;
   flex: 1;
   min-width: 200px;
+  padding-top: 10px;
 }
 
 .footer-section h2 {
@@ -171,31 +168,14 @@ footer p {
   text-decoration: underline;
 }
 
-.footer-section .social-media a {
-  margin: 0 10px;
-  font-size: 1.5rem;
-  color: #343a40;
-}
 
-.footer-section .social-media a:hover {
-  color: #007bff;
-}
 
-.footer-bottom {
-  
-  color: #f8f9fa;
-  padding: 10px 0;
-  font-size: 0.875rem;
-}
 
 .footer-bottom p {
   margin: 0;
 }
 
 
-.see {
-  border-radius: 5px;
-  border: 2px solid black;}
 
 @media (min-width: 350px) and (max-width: 1000px) {
   body {
