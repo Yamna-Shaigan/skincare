@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #FFC5C5;
+    color: black;
+}
+
+header {
+    background-color:purple;
+    color: white;
+    
+    text-align: center;
+    
+    
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+    margin-top: 30px;
+    padding-right: 120px;
+    padding-left: 58px;
+    padding-bottom: 20px;
+    
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  a:hover {
+    color: palevioletred;
+  }
+  
+  /* Header Section */
+.product-detail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 1200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image img {
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.product-info {
+    max-width: 600px;
+    padding-left: 30px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.description {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: black;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    color: purple;
+    margin-bottom: 15px;
+}
+
+#quantity {
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color:black;
+}
+
+.btn-buy-now {
+   
+background-color:#FFC5C5;
+color: purple;
+border-style: solid;
+border-radius: 2px;
+border-width: 4px;
+border-color: purple;
+    padding-right: 5px;
+    padding-left: 5px;
+
+margin-left: 40px;
+
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-buy-now:hover {
+    background-color: purple;
+    color: #f1a8a8;
+border-style: solid;
+border-radius: 2px;
+border-width: 4px;
+border-color: #FFC5C5;
+  
+}
+
+
+    /* Footer styles here */
+    
+    footer {
+        background-color: purple;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+      
+      .footer-container {
+        max-width: 1200px;
+        margin-top: auto;
+      }
+      
+      footer p {
+        margin: 0;
+      }
+      
+      .social-icons {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+      }
+      
+      .social-icons li {
+        display: inline;
+        margin: 0 10px;
+      }
+      
+      .social-icons li a {
+        color: #e9a1a1;
+        text-decoration: none;
+        font-size: 26px;
+      }
+      
+      .social-icons li a:hover {
+        color: black; /* Twitter Blue, you can customize for each platform */
+      }
+      
+    
+      .footer-right {
+        flex-basis: 40%;
+      }
+      
+      .footer-right h3 {
+        margin-bottom: 10px;
+        color: white;
+        padding-bottom: 10px;
+      }
+      
+      .footer-right ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .footer-right li {
+        margin-bottom: 15px;
+      }
+      
+      .footer-right a {
+        color: black;
+      }
+      
+      .footer-right a:hover {
+        color: #fab4b4;
+      }
+      
+      
+    
+      
+    
+    
+    
+    

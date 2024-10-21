@@ -1,11 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #FFC5C5;
-  }
+    background-color: #fff;
+}
 
-  header {
+header {
     background-color:purple;
     color: white;
     
@@ -48,87 +47,71 @@ body {
   }
   
   /* Header Section */
-    
-  .about-us {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow:  black;
-  }
-  
-  h1, h2, h3 {
-    color: purple; /* Purple */
-  }
-  
-  p {
+    main {
+        background-color: #FFC5C5;
+        padding-top: 20px;
+        
+    }
+p {
+    color: purple;
+}
+button {
+  background-color: #FFC5C5;
+  color:purple;
+  border-style: solid;
+  border-color: purple;
+  border-radius: 5px;
+  border-width: 2px;
+
+}
+
+
+
+.featured-products {
+    padding: 40px;
     color: black;
-    margin-bottom: 20px;
-  }
+}
+
+
+.products-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+
+}
+
+.product {
+  margin: 40px;
+  text-align: center;
+  background-color:#FFC5C5;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding-bottom: 20px;
+
+}
+
+.product-image {
+  width: 150px;
+  height: 150px;
+  background-color: #FFC5C5;
+  border-radius: 10px;
   
-  img {
-    width: 800px;
-    height: 500px;
+}
+
+.price-tag {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+.add-to-cart {
+  color: purple;
+  background-color: white;
+}
+
+    /* Footer styles here */
     
-    border-radius: 5px;
-    
-    border-style: solid;
-    border-width: 5px;
-    border-color:rgb(235, 129, 187) purple;
-  }
-  
-  .team-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .team-member {
-    margin: 20px;
-    text-align: center;
-    background-color: #FFC5C5; /* Light Pink */
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  .team-member img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-  }
-  
-  .testimonial-section {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ddd;
-    
-    
-    
-    border-radius: 10px;
-    margin-bottom: 20px;
-  }
-  
-  .testimonial {
-    margin-bottom: 20px;
-  }
-  
-  .testimonial img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  
-  .star {
-    font-size: 24px;
-    color:purple;
-    cursor: pointer;
-  }
-  
-  
   footer {
     background-color: purple;
     color: white;
@@ -201,3 +184,6 @@ body {
   
 
   
+
+
+

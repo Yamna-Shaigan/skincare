@@ -92,124 +92,59 @@ body {
 
 
 
-footer {
-	background-color: #FFC5C5; /* pink */
-	padding: 20px;
-	text-align: center;
-}
 
-footer .footer-content {
-	margin: 0 auto;
-	width: 80%;
-  
-}
+/* Footer Styles */
 
-.social-media {
-	margin-bottom: 10px;
-}
-
-.social-media a {
-	margin: 0 10px;
-}
-
-.social-media img {
-	width: 50px;
-	height: 30px;
-  border-style: none;
-}
-
-footer p {
-	color: #7A288A; /* purple */
-}
 .footer {
-  background-color: #ffc5c5;
-  color: black;
-  padding: 40px ;
-  text-align: center;
+  background-color: #7A288A; /* Deep Purple */
+  padding: 20px 0;
+  color: #FFFFFF; /* White */
 }
-.ama{
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
   display: flex;
-  padding-left: 25px;
-  
-
+  flex-direction: column;
+  align-items: center;
 }
 
-
-.footer-content {
+.footer-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.footer-section {
-  margin: 20px;
-  flex: 1;
-  min-width: 200px;
-  padding-top: 10px;
+.footer-links li {
+  margin-right: 20px;
 }
 
-.footer-section h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-  color:black;
-}
-
-.footer-section p {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-.footer-section a {
-  color: purple;
+.footer-links a {
+  color: #FFC5C5; /* Light Pink */
   text-decoration: none;
 }
 
-.footer-section a:hover {
-  text-decoration: underline;
+.social-media-icons {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-
-
-
-.footer-bottom p {
-  margin: 0;
+.social-media-icons a {
+  margin-right: 20px;
+  font-size: 20px;
+  color: #FFC5C5; /* Light Pink */
 }
 
-
-
-@media (min-width: 350px) and (max-width: 1000px) {
-  body {
-    margin: 0;
-  }
-
-  .nav_link {
-    font-size: 10px;
-  }
-
-  .nav_sec {
-    font-size: 10px;
-    top: 6px;
-  }
-
-  .nav__logo,
-  .spa,
-  .wor {
-    display: none;
-  }
-
-  .div {
-    width: 90%;
-    height: 400px;
-    font-size: 12px;
-  }
-
-  .footer {
-    width: 100%;
-    font-size: 12px;
-  }
+.copyright {
+  font-size: 14px;
+  color: #FFFFFF; /* White */
 }
 
-  
-  
 
   
